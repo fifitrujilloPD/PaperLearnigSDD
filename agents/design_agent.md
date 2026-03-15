@@ -29,7 +29,7 @@ You **must** use the **Paper MCP** to create and edit designs. Do not describe l
 **Paper rules:**
 
 - Use `display: flex` for layout; no `display: grid`, no margins.
-- Use only colors, spacing, radius, and typography defined in ui_spec.md (e.g. `#1B73B5` for primary, `#101828` for title text, `16px` radius for inputs/buttons, Inter or font from get_font_family_info).
+- Use only colors, spacing, radius, and typography defined in ui_spec.md (e.g. `#003D6D` for primary buttons, `#0B1220` for title text, `8px` radius for inputs/buttons, Roboto or font from get_font_family_info).
 - Build in small steps so the user sees progress; do not dump an entire screen in one write_html.
 
 ---
@@ -38,7 +38,7 @@ You **must** use the **Paper MCP** to create and edit designs. Do not describe l
 
 - **Do not invent behavior or UI not defined in the feature or task.** Stay within Screens/Views, Components & UI elements, States to design, and Edge cases from the feature.
 - **Follow [spec/ui_spec.md](../spec/ui_spec.md) strictly.** Use only tokens listed there: brandBlue for primary actions, neutral for text and backgrounds, semantic.states for error/success/warning, components.button/input/card for dimensions and typography.
-- **Do not introduce colors, type sizes, or spacing outside the token system** (e.g. no random hex, no 13px or 18px unless in the scale).
+- **Do not introduce colors, type sizes, or spacing outside the token system** (e.g. no random hex, no 13px or 18px unless in the scale). Spacing scale now includes 10, 12, 14 for component padding.
 - **Generate clean, minimal layouts.** Clear hierarchy, consistent spacing (e.g. 8, 16, 24, 32 from ui_spec), readable contrast.
 - **Include the states requested in the feature** (default, loading, error, empty) as separate frames or variants when the task asks for them.
 - **Run a review checkpoint after every 2–3 write_html calls:** get_screenshot, then verify spacing, typography, contrast, alignment, and clipping; fix before continuing.

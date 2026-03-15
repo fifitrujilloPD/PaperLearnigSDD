@@ -4,6 +4,7 @@ Referencia rápida de los tokens de **spec/ui_spec.md** aplicados en las pantall
 
 ## Sidebar
 
+
 - **Fondo:** `#FFFFFF` (blanco sobre neutral.50)
 - **Borde derecho:** `global.color.neutral.200` → #EAECF0
 - **Padding:** 24px vertical, 16px horizontal
